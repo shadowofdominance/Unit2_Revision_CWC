@@ -8,6 +8,9 @@ public class Player_Controller : MonoBehaviour
     private float _playerSpeed = 20;
     private float _xRange = 17;
     
+    // Prefab objects
+    [SerializeField]public GameObject projectilePrefab;
+    
     // Input action variables
     [SerializeField]private InputActionAsset inputActionAsset;
     private InputAction _moveAction;

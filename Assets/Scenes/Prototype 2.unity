@@ -788,7 +788,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100046, guid: f8abbdd178867d2419ba9feb6ff2cba0, type: 3}
       propertyPath: m_Name
-      value: player
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: f8abbdd178867d2419ba9feb6ff2cba0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -946,6 +946,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590138454}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1646007641 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 181360, guid: bd519f706f8c5cf4dad9fed04ab5b64b, type: 3}
+  m_PrefabInstance: {fileID: 2024911029}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1646007645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646007641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a92e0b87b7425b7e8b15da9bb0f8cddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Launch
 --- !u!1001 &1864726785
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1013,7 +1030,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 181360, guid: bd519f706f8c5cf4dad9fed04ab5b64b, type: 3}
       propertyPath: m_Name
-      value: Food_Organic_Carrot
+      value: Projectile
       objectReference: {fileID: 0}
     - target: {fileID: 403182, guid: bd519f706f8c5cf4dad9fed04ab5b64b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1058,7 +1075,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 181360, guid: bd519f706f8c5cf4dad9fed04ab5b64b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1646007645}
   m_SourcePrefab: {fileID: 100100000, guid: bd519f706f8c5cf4dad9fed04ab5b64b, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
